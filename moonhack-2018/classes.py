@@ -226,3 +226,4 @@ ourSolarSystem.addPlanet(planet("Neptune",[
         "Psamathe",
         "Neso"
       ]))
+ourSolarSystem.addPlanet(planet('Pluto',['Charon']))
