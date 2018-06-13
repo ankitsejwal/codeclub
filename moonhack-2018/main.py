@@ -1,3 +1,5 @@
 from classes import *
 
-print(ourSolarSystem.getPlanet('Earth'))
+targetPlanet = input("Type the name of a planet: ")
+# print(targetPlanet)
+# print(ourSolarSystem.getPlanet('Jupiter'))
