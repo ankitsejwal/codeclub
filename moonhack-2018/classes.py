@@ -227,3 +227,6 @@ ourSolarSystem.addPlanet(planet("Neptune",[
         "Neso"
       ]))
 ourSolarSystem.addPlanet(planet('Pluto',['Charon']))
+ourSolarSystem.addPlanet(planet('Ankit',['Tall square',
+        'Shine bot'
+      ]))
