@@ -1,5 +1,5 @@
 # Code Club
-Solving code club teaching material and projects.
+Solved code club learning material and projects.
 [**Code Club projects**](https://codeclubprojects.org)
 
 Included:
