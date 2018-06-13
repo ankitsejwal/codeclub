@@ -1,7 +1,8 @@
 from classes import *
 
 targetPlanet = input("Type the name of a planet: ")
-myPlanet = ourSolarSystem.getPlanet(targetPlanet)
+capitalPlanet = targetPlanet.capitalize()
+myPlanet = ourSolarSystem.getPlanet(capitalPlanet)
 
 # validating user input
 if myPlanet is not None:
@@ -9,6 +10,6 @@ if myPlanet is not None:
     if len(moons) > 0:
         print(moons)
     else:
-        print(targetPlanet + ' has no moons!')
+        print(capitalPlanet + ' has no moons!')
 else:
-    print(targetPlanet + ' is not a planet!')
+    print(capitalPlanet + ' is not a planet!')
