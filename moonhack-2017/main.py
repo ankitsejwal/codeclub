@@ -24,5 +24,5 @@ for objects in items:
     print(objects)
 
 print("Type the letter of the 4 items you would like to bring seperated by commas. Do not add spaces \n Ex: A,B,C,D")
-
-
+user_input = input("Enter your choice: ")
+# print(user_input)
