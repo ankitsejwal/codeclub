@@ -29,3 +29,15 @@ user_input = input("Enter your choice: ")
 
 user_list = list(user_input.split(','))
 # print(user_list)
+
+if "A" not in user_list:
+    print("Without a litre of water a day you will dehydrate")
+
+if "E" not in user_list:
+    print("Without oxygen you will not have any air to breath!")
+
+if "F" not in user_list:
+    print("Without solar panels your lunar rover will not have enough power to make it to the base")
+
+if "I" not in user_list:
+    print("You will not make it to the moon base without food. You will need energy your energy to drive the rover.")
