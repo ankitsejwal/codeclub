@@ -41,3 +41,8 @@ if "F" not in user_list:
 
 if "I" not in user_list:
     print("You will not make it to the moon base without food. You will need energy your energy to drive the rover.")
+
+if 'A' in user_list and 'E' in user_list and 'F' in user_list and 'I' in user_list:
+    print("Hooray! you picked the correct 4 items. You will make it to the moonbase safely")
+else:
+    print("You did not pick the correct 4 items for survival. You will not make it to the moon base.")
