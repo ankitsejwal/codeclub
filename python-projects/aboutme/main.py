@@ -26,3 +26,8 @@ print('''
 o____
  ||||
 ''')
+
+# Calculating text
+print('ha ' *4)
+print('ba' + 'na' *2)
+print('Hello' + '!' *10)
