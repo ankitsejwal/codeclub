@@ -14,3 +14,12 @@ else:
 
 print(player, 'vs', computer)
 
+if computer == player:
+    print('DRAW!')
+else:
+    if player == 'r':
+        print('Computer win') if computer == 'p' else print('You win')
+    if player == 'p':
+        print('Computer win') if computer == 's' else print("You win")
+    if player == 's':
+        print("Computer win") if computer == 'r' else print("You win")
