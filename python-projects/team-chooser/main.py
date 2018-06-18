@@ -26,5 +26,14 @@ while len(players) > 0:
     players.remove(playerB)
     print('Players left: ', players)
 
+teamA_file = open('teamA.txt', 'w')
+for player in teamA:
+    teamA_file.writelines(player + '\n')
+
 print(teamA)
+
+teamB_file = open('teamB.txt', 'w')
+for player in teamB:
+    teamB_file.writelines(player + '\n')
+
 print(teamB)
