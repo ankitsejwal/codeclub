@@ -6,15 +6,21 @@ players = ["Harry", "Hermione", "Jue", "Patrick"]
 print(players)
 
 teamA = []
-
-playerA = choice(players)
-teamA.append(playerA)
-players.remove(playerA)
-
 teamB = []
 
-playerB = choice(players)
-teamB.append(playerB)
-players.remove(playerB)
+while len(players) > 0:
 
-print('Players left: ', players)
+    playerA = choice(players)
+    print(playerA)
+    teamA.append(playerA)
+    players.remove(playerA)
+    print('Players left: ', players)
+
+    playerB = choice(players)
+    print(playerB)
+    teamB.append(playerB)
+    players.remove(playerB)
+    print('Players left: ', players)
+
+print(teamA)
+print(teamB)
