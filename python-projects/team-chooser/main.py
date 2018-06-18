@@ -10,4 +10,11 @@ teamA = []
 playerA = choice(players)
 teamA.append(playerA)
 players.remove(playerA)
+
+teamB = []
+
+playerB = choice(players)
+teamB.append(playerB)
+players.remove(playerB)
+
 print('Players left: ', players)
