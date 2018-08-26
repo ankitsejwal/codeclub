@@ -18,8 +18,17 @@ if computer == player:
     print('DRAW!')
 else:
     if player == 'r':
-        print('Computer win') if computer == 'p' else print('You win')
+        if computer == 'p':
+            print('Computer win') 
+        else: 
+            print('You win')
     if player == 'p':
-        print('Computer win') if computer == 's' else print("You win")
+        if computer == 's':
+            print('Computer win') 
+        else:
+            print("You win")
     if player == 's':
-        print("Computer win") if computer == 'r' else print("You win")
+        if computer == 'r':
+            print("Computer win") 
+        else:
+             print("You win")
